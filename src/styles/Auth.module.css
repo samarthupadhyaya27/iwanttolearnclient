@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.container {
+    /* background: linear-gradient(45deg, #E9C46A 0%, #F4A261 100%); */
+    width: 100vw;
+    min-height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: raleway;
+}
+
+::-webkit-input-placeholder {
+    font-family: raleway;
+}
+:-moz-placeholder {
+    font-family: raleway;
+}
+::-moz-placeholder {
+    font-family: raleway;
+
+}
+:-ms-input-placeholder {
+    font-family: raleway;
+}
+
+.loginForm {
+    background-color: white;
+    border: 5px solid #F4A261;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    max-width: 400px;
+    height: 460px;
+    width: 75vw;
+    border-radius: 15px;
+}
+
+
+.signUpLoginContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.formToggle {
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.selectedForm {
+    background-color: #E76F51;
+    font-family: raleway;
+}
+
+.unselectedForm {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: raleway;
+}
+
+.signUpLoginText {
+    font-size: 28px;
+    color: #E76F51;
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.8em;
+}
+
+
+.textInput {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    line-height: 40px;
+    max-width: 80vw;
+    border: none;
+    border-radius: 20px;
+    cursor: text;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding-left: 20px;
+}
+
+.forgotPasswordButton {
+    text-align: right;
+    font-size: 12px;
+    color: #E76F51;
+    cursor: pointer;
+}
+
+.fillerSpace {
+    flex-grow: 1;
+}
+
+.loginRegisterButton {
+    width: 100%;
+    background-color: #E76F51;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
